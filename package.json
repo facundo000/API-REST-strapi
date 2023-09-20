@@ -1,5 +1,5 @@
 {
-  "name": "backend-restaurant",
+  "name": "strapi",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,30 +9,22 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.13.4",
-    "@strapi/plugin-users-permissions": "4.13.4",
-    "@strapi/strapi": "4.13.4",
-    "better-sqlite3": "8.5.0",
-    "mysql": "^2.18.1"
+    "@strapi/strapi": "4.13.6",
+    "@strapi/plugin-users-permissions": "4.13.6",
+    "@strapi/plugin-i18n": "4.13.6",
+    "pg": "8.8.0"
   },
-  "author": "A Strapi developer",
+  "author": {
+    "name": "A Strapi developer"
+  },
   "strapi": {
-    "uuid": "8de9bea3-9e00-434b-919d-0f517f35bbf0"
+    "uuid": "3e657ebe-461a-47eb-b23b-21a97b1720a6"
   },
   "engines": {
     "node": ">=16.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/facundo000/strapi-RESTAPI.git"
-  },
-  "bugs": {
-    "url": "https://github.com/facundo000/strapi-RESTAPI/issues"
-  },
-  "homepage": "https://github.com/facundo000/strapi-RESTAPI#readme"
+  "license": "MIT"
 }
